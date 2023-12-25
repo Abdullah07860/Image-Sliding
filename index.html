@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider using html css and javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Image Slider</h1>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/6119581/pexels-photo-6119581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                style="width:100%">
+            <div class="text">Christmas</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/10498570/pexels-photo-10498570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                style="width:100%">
+            <div class="text">Christmas</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://images.pexels.com/photos/3440651/pexels-photo-3440651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                style="width:100%">
+            <div class="text">Christmas</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <script src="script.js"></script>
+</body>
+
+</html>
